@@ -23,14 +23,19 @@ h3{
 
 .main{
     border:5px solid black;
-    margin-top: 10%;
-    height:80%;
+    margin-top:5%;
+    height:80vh;
 
 }
 
 .boxes{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    border:5px solid black;
+    height: 79vh;
+    
 }
 
 .boxes ul{
